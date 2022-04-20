@@ -1,3 +1,5 @@
 # Arkenea Landing Page
 
-![preview](preview.jpg)
+Made by [Prashant Dwivedi](https://dribbble.com/shots/2218540-Arkenea)
+
+![arkenea](preview.jpg)
