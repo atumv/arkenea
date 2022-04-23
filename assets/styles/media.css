@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+  .logo {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .nav {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .nav__item {
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .hero-main {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .hero__header {
+    margin: 0 auto;
+  }
+
+  .hero__text {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .stories__header {
+    text-align: center;
+  }
+
+  .divider {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .story {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .story__text {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .contact__header {
+    word-spacing: 0;
+  }
+
+  .contact-inner {
+    grid-auto-flow: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-form__name-input {
+    width: 100%;
+  }
+
+  .contact-form__email-input {
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .contact-info {
+    margin-top: 50px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .address {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-text {
+    grid-auto-flow: row;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__header {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+
+  .hero__request-btn {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .request__email-input {
+    width: 100%;
+  }
+
+  .request__email-input::placeholder {
+    text-align: center;
+  }
+
+  .contact-form__name-input::placeholder {
+    text-align: center;
+  }
+
+  .contact-form__email-input::placeholder {
+    text-align: center;
+  }
+
+  .contact-form__message-input::placeholder {
+    text-align: center;
+  }
+}

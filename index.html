@@ -10,56 +10,84 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700"
     />
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/media.css" />
   </head>
 
   <body>
     <div class="intro">
       <header class="header">
-        <a class="logo" href="index.html"></a>
-        <nav class="nav">
-          <a class="nav__item" href="#!">PORTFOLIO</a>
-          <a class="nav__item" href="#!">ABOUT</a>
-          <a class="nav__item" href="#!">PRICING</a>
-          <a class="nav__item" href="#!">CAREERS</a>
-          <a class="nav__item" href="#!">BLOG</a>
-          <a class="nav__item" href="#!">GET A QUOTE</a>
-        </nav>
+        <div class="container">
+          <div class="row">
+            <a class="logo" href="index.html"
+              ><img
+                class="logo-img"
+                src="assets/images/logo.png"
+                width="177"
+                height="20"
+                alt="logo"
+            /></a>
+            <nav class="nav">
+              <a class="nav__item" href="#!">PORTFOLIO</a>
+              <a class="nav__item" href="#!">ABOUT</a>
+              <a class="nav__item" href="#!">PRICING</a>
+              <a class="nav__item" href="#!">CAREERS</a>
+              <a class="nav__item" href="#!">BLOG</a>
+              <a class="nav__item" href="#!">GET A QUOTE</a>
+            </nav>
+          </div>
+        </div>
       </header>
 
-      <div class="banner">
-        <h1 class="banner__header">
-          TECHNICAL CO<wbr />FOUNDERS TO YOUR MOBILE &<br />
-          WEB STARTUP
-        </h1>
-        <p class="banner__text">
-          To build a successful app, you need a smart product strategy, engaging
-          UX, killer designs, and a talented mobile development team.
-        </p>
-        <p class="banner__conclusion">
-          <span class="banner__conclusion--bolder">GOOD NEWS</span> - You've
-          come to the right place.
-        </p>
-        <div class="request banner__request">
-          <input
-            class="request__email-input"
-            type="email"
-            name="email"
-            placeholder="*Your Email Address"
-          />
-          <a
-            class="btn request-btn banner__request-btn btn--red btn--border-red"
-            href="#!"
-            >Request a Quote</a
-          >
+      <div class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="hero-main">
+              <h1 class="hero__header">
+                TECHNICAL CO<wbr />FOUNDERS TO YOUR MOBILE &<br />
+                WEB STARTUP
+              </h1>
+              <p class="hero__text">
+                To build a successful app, you need a smart product strategy,
+                engaging UX, killer designs, and a talented mobile development
+                team.
+              </p>
+              <p class="hero__conclusion">
+                <span class="hero__conclusion--bolder">GOOD NEWS</span> - You've
+                come to the right place.
+              </p>
+              <div class="request hero__request">
+                <input
+                  class="request__email-input"
+                  type="email"
+                  name="email"
+                  placeholder="*Your Email Address"
+                />
+                <button
+                  class="
+                    btn
+                    request-btn
+                    hero__request-btn
+                    btn--red btn--border-red
+                  "
+                >
+                  Request a Quote
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="stories">
-      <div class="stories-container">
-        <h2 class="stories__header">OUR SUCCESS STORIES</h2>
-        <div class="divider stories__divider"></div>
-        <div class="stories-block">
+      <div class="container">
+        <div class="row">
+          <div class="stories-intro">
+            <h2 class="stories__header">OUR SUCCESS STORIES</h2>
+            <div class="divider stories__divider"></div>
+          </div>
+        </div>
+        <div class="row">
           <div class="story stories__story story-first">
             <a class="story__link" href="#!"
               ><img
@@ -69,10 +97,12 @@
                 height="401"
                 alt="story"
             /></a>
-            <p class="story__text">
-              Sleep Easily downloaded over 400,000 times - generating consistent
-              revenues.
-            </p>
+            <a class="story__link" href="#!">
+              <p class="story__text">
+                Sleep Easily downloaded over 400,000 times - generating
+                consistent revenues.
+              </p>
+            </a>
             <a class="story__continue-link" href="#!"
               ><span class="story__continue">Continue reading...</span></a
             >
@@ -86,10 +116,12 @@
                 height="402"
                 alt="story"
             /></a>
-            <p class="story__text">
-              Canvsly featured on TechCrunch and winner of the Kiip Build Fund
-              2013 and Mom's Choice Awards.
-            </p>
+            <a class="story__link" href="#!">
+              <p class="story__text">
+                Canvsly featured on TechCrunch and winner of the Kiip Build Fund
+                2013 and Mom's Choice Awards.
+              </p>
+            </a>
             <a class="story__continue-link" href="#!"
               ><span class="story__continue">Continue reading...</span></a
             >
@@ -103,10 +135,12 @@
                 height="402"
                 alt="story"
             /></a>
-            <p class="story__text">
-              Glenn Harrold, celebrity hypnotherapist, crosses 2 million
-              downloads for his apps.
-            </p>
+            <a class="story__link" href="#!">
+              <p class="story__text">
+                Glenn Harrold, celebrity hypnotherapist, crosses 2 million
+                downloads for his apps.
+              </p>
+            </a>
             <a class="story__continue-link" href="#!"
               ><span class="story__continue">Continue reading...</span></a
             >
@@ -116,49 +150,48 @@
     </div>
 
     <div class="testimonials">
-      <div class="testimonials-container">
-        <div class="testimonial-first testimonial-visible">
-          <blockquote class="testimonials__quote">
-            “Arkenea thinks outside the box and offer solutions through the
-            creative process of developing apps. They care about their
-            customers.”
-          </blockquote>
-          <p class="testimonials__author-about">
-            Hypnotherapist and Best Selling Author
-          </p>
-          <cite class="testimonials__author-name">- GLENN HARROLD</cite>
-        </div>
-
-        <div class="testimonial-second">
-          <blockquote class="testimonials__quote">
-            “All that we see or seem is but a dream within a dream.”
-          </blockquote>
-          <p class="testimonials__author-about">
-            American writer, editor, and literary critic
-          </p>
-          <cite class="testimonials__author-name">- EDGAR ALLAN POE</cite>
-        </div>
-
-        <div class="testimonial-third">
-          <blockquote class="testimonials__quote">
-            “All our knowledge begins with the senses, proceeds then to the
-            understanding, and ends with reason. There is nothing higher than
-            reason.”
-          </blockquote>
-          <p class="testimonials__author-about">German philosopher</p>
-          <cite class="testimonials__author-name">- IMMANUEL KANT</cite>
-        </div>
-
-        <div class="slider testimonials__slider">
-          <a class="slider__dot slider__dot-first slider__dot--active"></a>
-          <a class="slider__dot slider__dot-second"></a>
-          <a class="slider__dot slider__dot-third"></a>
+      <div class="container">
+        <div class="row">
+          <div class="testimonial testimonial-first testimonial-visible">
+            <blockquote class="testimonials__quote">
+              “Arkenea thinks outside the box and offer solutions through the
+              creative process of developing apps. They care about their
+              customers.”
+            </blockquote>
+            <p class="testimonials__author-about">
+              Hypnotherapist and Best Selling Author
+            </p>
+            <cite class="testimonials__author-name">- GLENN HARROLD</cite>
+          </div>
+          <div class="testimonial testimonial-second">
+            <blockquote class="testimonials__quote">
+              “All that we see or seem is but a dream within a dream.”
+            </blockquote>
+            <p class="testimonials__author-about">
+              American writer, editor, and literary critic
+            </p>
+            <cite class="testimonials__author-name">- EDGAR ALLAN POE</cite>
+          </div>
+          <div class="testimonial testimonial-third">
+            <blockquote class="testimonials__quote">
+              “All our knowledge begins with the senses, proceeds then to the
+              understanding, and ends with reason. There is nothing higher than
+              reason.”
+            </blockquote>
+            <p class="testimonials__author-about">German philosopher</p>
+            <cite class="testimonials__author-name">- IMMANUEL KANT</cite>
+          </div>
+          <div class="slider testimonials__slider">
+            <a class="slider__dot slider__dot-first slider__dot--active"></a>
+            <a class="slider__dot slider__dot-second"></a>
+            <a class="slider__dot slider__dot-third"></a>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="contact">
-      <div class="contact-container">
+      <div class="container">
         <h2 class="contact__header">TELL US ABOUT YOUR REQUIREMENT</h2>
 
         <div class="contact-inner">
@@ -206,15 +239,18 @@
     </div>
 
     <footer class="footer">
-      <div class="footer-container">
-        <p class="copyright">&copy; 2015 ARKENEA. All rights reserved.</p>
-        <p class="footer__author">
-          Designer - Prashant Dwivedi |&nbsp;<span
-            class="footer__author--bolder"
-            >MADE WITH <ion-icon class="heart-icon" name="heart"></ion-icon> IN
-            INDIA</span
-          >
-        </p>
+      <div class="container">
+        <div class="footer-text">
+          <p class="copyright">&copy; 2015 ARKENEA. All rights reserved.</p>
+          <p class="footer__author">
+            Designer - Prashant Dwivedi |&nbsp;<span
+              class="footer__author--bolder"
+              >MADE WITH
+              <ion-icon class="heart-icon" name="heart"></ion-icon> IN
+              INDIA</span
+            >
+          </p>
+        </div>
       </div>
     </footer>
 
